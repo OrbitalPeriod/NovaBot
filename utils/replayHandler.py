@@ -2,6 +2,7 @@ import utils.replayParser as replayParser
 from utils.replayParser import Player
 from utils.replayParser import Team
 from utils.sqlManager import getMemberandTeam
+import utils.logger as logger
 
 def processReplays(replayList):         #gets team and player data, returns 6* player class and 2* team class
     playerList = []
@@ -10,10 +11,36 @@ def processReplays(replayList):         #gets team and player data, returns 6* p
     for replay in replayList:                               
         pla, team = replayParser.returnGameStats(replay)
         playerList = playerList + pla
-        teamList = teamList + team
+        teamList = teamList + team                      #gets player and team objects from replay parser
+                                                        #player.Team not yet set
         
-        
+    players = _getPlayerData(playerList)                #returns 6 Player objects, Player.Team set
+    teams = sortTeams(teamList)                                 #returns 2 team objects, name not done yet
+    del playerList
+    del teamList
+
+    if teams[0].GameWins > teams[1].GameWins:           #determine which team won
+        teams[0].setSeriesWin()
+    else:
+        teams[1].setSeriesWin()
+
+    memAndTeam = getMemberandTeam()
+    for team in teams:
+        for member in team.Members:
+            try:
+                teamname = memAndTeam[member]
+            except:
+                continue
+            team.Name = teamname[0]
+            break
+
+
+    return players, teams
+
+def _getPlayerData(playerList):             #returns 6 Player objects, Player.Team set
     players = {}
+    memberTeamDic = getMemberandTeam()
+
     for player in playerList:                                                   #create player object for each player
         players[player.Name] = Player()
 
@@ -28,39 +55,35 @@ def processReplays(replayList):         #gets team and player data, returns 6* p
         players[player.Name].Saves = player.Saves + players[player.Name].Saves
         players[player.Name].Shots = player.Shots + players[player.Name].Shots
         players[player.Name].Games = player.Games + players[player.Name].Games
-
-    teams = {0 : Team(0), 1 : Team(1)}
-    for team in teamList:                                                               #combines team stats
-        teams[team.teamN].Goals = teams[team.teamN].Goals + team.Goals
-        teams[team.teamN].Score = teams[team.teamN].Score + team.Score
-        teams[team.teamN].Assists = teams[team.teamN].Assists + team.Assists
-        teams[team.teamN].Saves = teams[team.teamN].Saves + team.Saves
-        teams[team.teamN].Shots = teams[team.teamN].Shots + team.Shots
-        teams[team.teamN].Games = teams[team.teamN].Games + team.Games
-        teams[team.teamN].GameWins = teams[team.teamN].GameWins + team.GameWins
-        teams[team.teamN].Members  = team.Members
-    
-    memberlist = getMemberandTeam()
-
-    for member in teams[0].Members:
         try:
-            team = memberlist[member]
-            teams[0].Name = team
-            break
-        except:
-            pass
-    
-    for member in teams[1].Members:
-        try:
-            team = memberlist[member]
-            teams[1].Name = team
-            break
+            players[player.Name].Team = memberTeamDic[player.Name][0]
         except:
             pass
 
-    if teams[0].GameWins > teams[1].GameWins:
-        teams[0].setSeriesWin()
-    else:
-        teams[1].setSeriesWin()
+    
+    return players
 
-    return players, teams
+def sortTeams(teamList):
+    teams = []
+    for u in [0, 1]:
+        tempTeamlist = teamList.copy()
+        teams.append(teamList[0])
+        teamList.pop(0)
+        popped = 0
+        for i in range(1, len(tempTeamlist)):
+            similarity = 0
+            for member in tempTeamlist[i].Members:
+                if member in teams[u].Members:
+                    similarity = similarity + 1
+            if similarity > 1:
+                teams[u].Goals = teams[u].Goals + tempTeamlist[i].Goals
+                teams[u].Score = teams[u].Score + tempTeamlist[i].Score
+                teams[u].Assists = teams[u].Assists + tempTeamlist[i].Assists
+                teams[u].Saves = teams[u].Saves + tempTeamlist[i].Saves
+                teams[u].Shots = teams[u].Shots + tempTeamlist[i].Shots
+                teams[u].Games = teams[u].Games + tempTeamlist[i].Games
+                teams[u].GameWins = teams[u].GameWins + tempTeamlist[i].GameWins
+                teams[u].Members = tempTeamlist[u].Members
+                teamList.pop(i - popped)
+                popped = popped + 1
+    return teams

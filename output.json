@@ -15,8 +15,8 @@
 			"stream_size": 0,
 			"unknown": []
 		},
-		"crc": 3687297879,
-		"size": 1415220
+		"crc": 4189928508,
+		"size": 1410862
 	},
 	"header": {
 		"body": {
@@ -80,7 +80,7 @@
 						"kind": "StrProperty",
 						"size": "24",
 						"value": {
-							"str": "2020-10-21 18-11-17"
+							"str": "2020-10-21 18-26-40"
 						}
 					},
 					"GameVersion": {
@@ -92,7 +92,7 @@
 					},
 					"Goals": {
 						"kind": "ArrayProperty",
-						"size": "718",
+						"size": "721",
 						"value": {
 							"array": [
 								{
@@ -121,69 +121,7 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1308
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"PlayerName",
-										"PlayerTeam"
-									],
-									"last_key": "None",
-									"value": {
-										"PlayerName": {
-											"kind": "StrProperty",
-											"size": "16",
-											"value": {
-												"str": "King Baders"
-											}
-										},
-										"PlayerTeam": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 4944
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"PlayerName",
-										"PlayerTeam"
-									],
-									"last_key": "None",
-									"value": {
-										"PlayerName": {
-											"kind": "StrProperty",
-											"size": "17",
-											"value": {
-												"str": "gingerninja7"
-											}
-										},
-										"PlayerTeam": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 6857
+												"int": 1187
 											}
 										}
 									}
@@ -214,7 +152,7 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 7591
+												"int": 1669
 											}
 										}
 									}
@@ -229,9 +167,9 @@
 									"value": {
 										"PlayerName": {
 											"kind": "StrProperty",
-											"size": "10",
+											"size": "13",
 											"value": {
-												"str": "F1ngs"
+												"str": "Sid3line"
 											}
 										},
 										"PlayerTeam": {
@@ -245,7 +183,69 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 8576
+												"int": 3093
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"PlayerName",
+										"PlayerTeam"
+									],
+									"last_key": "None",
+									"value": {
+										"PlayerName": {
+											"kind": "StrProperty",
+											"size": "16",
+											"value": {
+												"str": "King Baders"
+											}
+										},
+										"PlayerTeam": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 3943
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"PlayerName",
+										"PlayerTeam"
+									],
+									"last_key": "None",
+									"value": {
+										"PlayerName": {
+											"kind": "StrProperty",
+											"size": "17",
+											"value": {
+												"str": "gingerninja7"
+											}
+										},
+										"PlayerTeam": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 6611
 											}
 										}
 									}
@@ -255,7 +255,7 @@
 					},
 					"HighLights": {
 						"kind": "ArrayProperty",
-						"size": "886",
+						"size": "916",
 						"value": {
 							"array": [
 								{
@@ -268,147 +268,23 @@
 									"value": {
 										"BallName": {
 											"kind": "NameProperty",
-											"size": "9",
+											"size": "15",
 											"value": {
-												"name": "None"
+												"name": "Ball_TA_63"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_242"
+												"name": "Car_TA_358"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1308
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"CarName",
-										"BallName"
-									],
-									"last_key": "None",
-									"value": {
-										"BallName": {
-											"kind": "NameProperty",
-											"size": "9",
-											"value": {
-												"name": "None"
-											}
-										},
-										"CarName": {
-											"kind": "NameProperty",
-											"size": "15",
-											"value": {
-												"name": "Car_TA_257"
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 4944
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"CarName",
-										"BallName"
-									],
-									"last_key": "None",
-									"value": {
-										"BallName": {
-											"kind": "NameProperty",
-											"size": "9",
-											"value": {
-												"name": "None"
-											}
-										},
-										"CarName": {
-											"kind": "NameProperty",
-											"size": "15",
-											"value": {
-												"name": "Car_TA_268"
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 6857
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"CarName",
-										"BallName"
-									],
-									"last_key": "None",
-									"value": {
-										"BallName": {
-											"kind": "NameProperty",
-											"size": "9",
-											"value": {
-												"name": "None"
-											}
-										},
-										"CarName": {
-											"kind": "NameProperty",
-											"size": "15",
-											"value": {
-												"name": "Car_TA_283"
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 7591
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"CarName",
-										"BallName"
-									],
-									"last_key": "None",
-									"value": {
-										"BallName": {
-											"kind": "NameProperty",
-											"size": "9",
-											"value": {
-												"name": "None"
-											}
-										},
-										"CarName": {
-											"kind": "NameProperty",
-											"size": "15",
-											"value": {
-												"name": "Car_TA_298"
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 8576
+												"int": 976
 											}
 										}
 									}
@@ -425,21 +301,145 @@
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Ball_TA_53"
+												"name": "Ball_TA_63"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_306"
+												"name": "Car_TA_361"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 9016
+												"int": 1187
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"CarName",
+										"BallName"
+									],
+									"last_key": "None",
+									"value": {
+										"BallName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Ball_TA_63"
+											}
+										},
+										"CarName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Car_TA_371"
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1669
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"CarName",
+										"BallName"
+									],
+									"last_key": "None",
+									"value": {
+										"BallName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Ball_TA_63"
+											}
+										},
+										"CarName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Car_TA_386"
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 3093
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"CarName",
+										"BallName"
+									],
+									"last_key": "None",
+									"value": {
+										"BallName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Ball_TA_63"
+											}
+										},
+										"CarName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Car_TA_397"
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 3943
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"CarName",
+										"BallName"
+									],
+									"last_key": "None",
+									"value": {
+										"BallName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Ball_TA_63"
+											}
+										},
+										"CarName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Car_TA_405"
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 6611
 											}
 										}
 									}
@@ -451,7 +451,7 @@
 						"kind": "StrProperty",
 						"size": "37",
 						"value": {
-							"str": "610F1131449D8E1FBE7E96BFD9C85EFC"
+							"str": "421132534EFD6A4C29EAC385BAB1C967"
 						}
 					},
 					"KeyframeDelay": {
@@ -463,9 +463,9 @@
 					},
 					"MapName": {
 						"kind": "NameProperty",
-						"size": "24",
+						"size": "18",
 						"value": {
-							"name": "EuroStadium_Night_P"
+							"name": "CHN_Stadium_P"
 						}
 					},
 					"MatchType": {
@@ -493,7 +493,7 @@
 						"kind": "IntProperty",
 						"size": "4",
 						"value": {
-							"int": 9628
+							"int": 9631
 						}
 					},
 					"PlayerName": {
@@ -527,7 +527,7 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1
+												"int": 2
 											}
 										},
 										"Goals": {
@@ -572,7 +572,7 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 348
+												"int": 372
 											}
 										},
 										"Shots": {
@@ -618,96 +618,6 @@
 											"size": "4",
 											"value": {
 												"int": 0
-											}
-										},
-										"Goals": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Name": {
-											"kind": "StrProperty",
-											"size": "19",
-											"value": {
-												"str": "Clay Regazzoni"
-											}
-										},
-										"OnlineID": {
-											"kind": "QWordProperty",
-											"size": "8",
-											"value": {
-												"q_word": "76561198124848811"
-											}
-										},
-										"Platform": {
-											"kind": "ByteProperty",
-											"size": "25",
-											"value": {
-												"byte": [
-													"OnlinePlatform",
-													"OnlinePlatform_Steam"
-												]
-											}
-										},
-										"Saves": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Score": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 112
-											}
-										},
-										"Shots": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 4
-											}
-										},
-										"Team": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"bBot": {
-											"kind": "BoolProperty",
-											"size": "0",
-											"value": {
-												"bool": 0
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"Name",
-										"Platform",
-										"OnlineID",
-										"Team",
-										"Score",
-										"Goals",
-										"Assists",
-										"Saves",
-										"Shots",
-										"bBot"
-									],
-									"last_key": "None",
-									"value": {
-										"Assists": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
 											}
 										},
 										"Goals": {
@@ -752,7 +662,7 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 494
+												"int": 463
 											}
 										},
 										"Shots": {
@@ -804,7 +714,97 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
+												"int": 0
+											}
+										},
+										"Name": {
+											"kind": "StrProperty",
+											"size": "19",
+											"value": {
+												"str": "Clay Regazzoni"
+											}
+										},
+										"OnlineID": {
+											"kind": "QWordProperty",
+											"size": "8",
+											"value": {
+												"q_word": "76561198124848811"
+											}
+										},
+										"Platform": {
+											"kind": "ByteProperty",
+											"size": "25",
+											"value": {
+												"byte": [
+													"OnlinePlatform",
+													"OnlinePlatform_Steam"
+												]
+											}
+										},
+										"Saves": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 3
+											}
+										},
+										"Score": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 401
+											}
+										},
+										"Shots": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 4
+											}
+										},
+										"Team": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
 												"int": 1
+											}
+										},
+										"bBot": {
+											"kind": "BoolProperty",
+											"size": "0",
+											"value": {
+												"bool": 0
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"Name",
+										"Platform",
+										"OnlineID",
+										"Team",
+										"Score",
+										"Goals",
+										"Assists",
+										"Saves",
+										"Shots",
+										"bBot"
+									],
+									"last_key": "None",
+									"value": {
+										"Assists": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"Goals": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
 											}
 										},
 										"Name": {
@@ -842,14 +842,104 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 379
+												"int": 234
 											}
 										},
 										"Shots": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
+												"int": 0
+											}
+										},
+										"Team": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"bBot": {
+											"kind": "BoolProperty",
+											"size": "0",
+											"value": {
+												"bool": 0
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"Name",
+										"Platform",
+										"OnlineID",
+										"Team",
+										"Score",
+										"Goals",
+										"Assists",
+										"Saves",
+										"Shots",
+										"bBot"
+									],
+									"last_key": "None",
+									"value": {
+										"Assists": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
 												"int": 1
+											}
+										},
+										"Goals": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Name": {
+											"kind": "StrProperty",
+											"size": "13",
+											"value": {
+												"str": "Sid3line"
+											}
+										},
+										"OnlineID": {
+											"kind": "QWordProperty",
+											"size": "8",
+											"value": {
+												"q_word": "76561198382015863"
+											}
+										},
+										"Platform": {
+											"kind": "ByteProperty",
+											"size": "25",
+											"value": {
+												"byte": [
+													"OnlinePlatform",
+													"OnlinePlatform_Steam"
+												]
+											}
+										},
+										"Saves": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"Score": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 384
+											}
+										},
+										"Shots": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 6
 											}
 										},
 										"Team": {
@@ -925,104 +1015,14 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 2
-											}
-										},
-										"Score": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 429
-											}
-										},
-										"Shots": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
 												"int": 3
 											}
 										},
-										"Team": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"bBot": {
-											"kind": "BoolProperty",
-											"size": "0",
-											"value": {
-												"bool": 0
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"Name",
-										"Platform",
-										"OnlineID",
-										"Team",
-										"Score",
-										"Goals",
-										"Assists",
-										"Saves",
-										"Shots",
-										"bBot"
-									],
-									"last_key": "None",
-									"value": {
-										"Assists": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Goals": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Name": {
-											"kind": "StrProperty",
-											"size": "13",
-											"value": {
-												"str": "Sid3line"
-											}
-										},
-										"OnlineID": {
-											"kind": "QWordProperty",
-											"size": "8",
-											"value": {
-												"q_word": "76561198382015863"
-											}
-										},
-										"Platform": {
-											"kind": "ByteProperty",
-											"size": "25",
-											"value": {
-												"byte": [
-													"OnlinePlatform",
-													"OnlinePlatform_Steam"
-												]
-											}
-										},
-										"Saves": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
 										"Score": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 240
+												"int": 480
 											}
 										},
 										"Shots": {
@@ -1074,9 +1074,9 @@
 					},
 					"ReplayName": {
 						"kind": "StrProperty",
-						"size": "22",
+						"size": "23",
 						"value": {
-							"str": "ruby nova semi g1"
+							"str": "ruby stool semi g2"
 						}
 					},
 					"ReplayVersion": {
@@ -1124,7 +1124,7 @@
 				}
 			}
 		},
-		"crc": 3313784450,
-		"size": 5616
+		"crc": 2914135113,
+		"size": 5644
 	}
 }

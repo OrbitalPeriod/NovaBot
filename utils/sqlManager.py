@@ -84,4 +84,29 @@ def matchMatch(team, week):
 
     mydb.close()
     return matchMatches
+
+def enterCommand(command):
+    mydb = startConnection()
+    cursor = mydb.cursor()
+
+    cursor.execute(command)
+    result = cursor.fetchall()
+
+    mydb.close()
+    return result
+
+def discordAndTeam(discordID):
+    mydb = startConnection()
+    cursor = mydb.cursor()
+
+    template = "SELECT teamname FROM teamMembers WHERE discordID=%s"
+
+    result = []
+    cursor.execute(template, (discordID,))
+    result = cursor.fetchone()
+    mydb.close()
+    try:
+        return result[0]
+    except:
+        return None
         
