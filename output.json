@@ -15,20 +15,19 @@
 			"stream_size": 0,
 			"unknown": []
 		},
-		"crc": 4189928508,
-		"size": 1410862
+		"crc": 2400778372,
+		"size": 2126925
 	},
 	"header": {
 		"body": {
 			"engine_version": 868,
 			"label": "TAGame.Replay_Soccar_TA",
-			"licensee_version": 29,
+			"licensee_version": 28,
 			"patch_version": 10,
 			"properties": {
 				"keys": [
 					"TeamSize",
 					"UnfairTeamSize",
-					"PrimaryPlayerTeam",
 					"Team0Score",
 					"Team1Score",
 					"Goals",
@@ -50,8 +49,7 @@
 					"MapName",
 					"Date",
 					"NumFrames",
-					"MatchType",
-					"PlayerName"
+					"MatchType"
 				],
 				"last_key": "None",
 				"value": {
@@ -59,28 +57,28 @@
 						"kind": "IntProperty",
 						"size": "4",
 						"value": {
-							"int": 1802221056
+							"int": -304568590
 						}
 					},
 					"BuildVersion": {
 						"kind": "StrProperty",
 						"size": "24",
 						"value": {
-							"str": "201009.60705.295428"
+							"str": "200107.39570.258888"
 						}
 					},
 					"Changelist": {
 						"kind": "IntProperty",
 						"size": "4",
 						"value": {
-							"int": 295428
+							"int": 258888
 						}
 					},
 					"Date": {
 						"kind": "StrProperty",
 						"size": "24",
 						"value": {
-							"str": "2020-10-21 18-26-40"
+							"str": "2020-01-28 19-45-16"
 						}
 					},
 					"GameVersion": {
@@ -92,7 +90,7 @@
 					},
 					"Goals": {
 						"kind": "ArrayProperty",
-						"size": "721",
+						"size": "724",
 						"value": {
 							"array": [
 								{
@@ -105,9 +103,9 @@
 									"value": {
 										"PlayerName": {
 											"kind": "StrProperty",
-											"size": "16",
+											"size": "10",
 											"value": {
-												"str": "King Baders"
+												"str": "Yaiba"
 											}
 										},
 										"PlayerTeam": {
@@ -121,7 +119,69 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1187
+												"int": 2300
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"PlayerName",
+										"PlayerTeam"
+									],
+									"last_key": "None",
+									"value": {
+										"PlayerName": {
+											"kind": "StrProperty",
+											"size": "24",
+											"value": {
+												"str": "✪ Davey ✪"
+											}
+										},
+										"PlayerTeam": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 3445
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"PlayerName",
+										"PlayerTeam"
+									],
+									"last_key": "None",
+									"value": {
+										"PlayerName": {
+											"kind": "StrProperty",
+											"size": "18",
+											"value": {
+												"str": "OrbitalPeriod"
+											}
+										},
+										"PlayerTeam": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 5841
 											}
 										}
 									}
@@ -138,21 +198,21 @@
 											"kind": "StrProperty",
 											"size": "10",
 											"value": {
-												"str": "Zi0n."
+												"str": "F1ngs"
 											}
 										},
 										"PlayerTeam": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 0
+												"int": 1
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1669
+												"int": 7984
 											}
 										}
 									}
@@ -169,7 +229,7 @@
 											"kind": "StrProperty",
 											"size": "13",
 											"value": {
-												"str": "Sid3line"
+												"str": "Matthias"
 											}
 										},
 										"PlayerTeam": {
@@ -183,69 +243,7 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 3093
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"PlayerName",
-										"PlayerTeam"
-									],
-									"last_key": "None",
-									"value": {
-										"PlayerName": {
-											"kind": "StrProperty",
-											"size": "16",
-											"value": {
-												"str": "King Baders"
-											}
-										},
-										"PlayerTeam": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 3943
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"frame",
-										"PlayerName",
-										"PlayerTeam"
-									],
-									"last_key": "None",
-									"value": {
-										"PlayerName": {
-											"kind": "StrProperty",
-											"size": "17",
-											"value": {
-												"str": "gingerninja7"
-											}
-										},
-										"PlayerTeam": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"frame": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 6611
+												"int": 13433
 											}
 										}
 									}
@@ -255,7 +253,7 @@
 					},
 					"HighLights": {
 						"kind": "ArrayProperty",
-						"size": "916",
+						"size": "1056",
 						"value": {
 							"array": [
 								{
@@ -268,23 +266,54 @@
 									"value": {
 										"BallName": {
 											"kind": "NameProperty",
-											"size": "15",
+											"size": "9",
 											"value": {
-												"name": "Ball_TA_63"
+												"name": "None"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_358"
+												"name": "Car_TA_392"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 976
+												"int": 2300
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"frame",
+										"CarName",
+										"BallName"
+									],
+									"last_key": "None",
+									"value": {
+										"BallName": {
+											"kind": "NameProperty",
+											"size": "9",
+											"value": {
+												"name": "None"
+											}
+										},
+										"CarName": {
+											"kind": "NameProperty",
+											"size": "15",
+											"value": {
+												"name": "Car_TA_400"
+											}
+										},
+										"frame": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 3445
 											}
 										}
 									}
@@ -301,21 +330,21 @@
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Ball_TA_63"
+												"name": "Ball_TA_66"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_361"
+												"name": "Car_TA_411"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1187
+												"int": 3803
 											}
 										}
 									}
@@ -332,21 +361,21 @@
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Ball_TA_63"
+												"name": "Ball_TA_66"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_371"
+												"name": "Car_TA_411"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1669
+												"int": 5841
 											}
 										}
 									}
@@ -363,21 +392,21 @@
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Ball_TA_63"
+												"name": "Ball_TA_68"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_386"
+												"name": "Car_TA_426"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 3093
+												"int": 7168
 											}
 										}
 									}
@@ -394,21 +423,21 @@
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Ball_TA_63"
+												"name": "Ball_TA_68"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_397"
+												"name": "Car_TA_427"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 3943
+												"int": 7984
 											}
 										}
 									}
@@ -425,21 +454,21 @@
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Ball_TA_63"
+												"name": "Ball_TA_68"
 											}
 										},
 										"CarName": {
 											"kind": "NameProperty",
 											"size": "15",
 											"value": {
-												"name": "Car_TA_405"
+												"name": "Car_TA_447"
 											}
 										},
 										"frame": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 6611
+												"int": 13433
 											}
 										}
 									}
@@ -451,7 +480,7 @@
 						"kind": "StrProperty",
 						"size": "37",
 						"value": {
-							"str": "421132534EFD6A4C29EAC385BAB1C967"
+							"str": "86E6989D4ED7137C9585C1B7E7578820"
 						}
 					},
 					"KeyframeDelay": {
@@ -463,9 +492,9 @@
 					},
 					"MapName": {
 						"kind": "NameProperty",
-						"size": "18",
+						"size": "9",
 						"value": {
-							"name": "CHN_Stadium_P"
+							"name": "cs_p"
 						}
 					},
 					"MatchType": {
@@ -493,19 +522,12 @@
 						"kind": "IntProperty",
 						"size": "4",
 						"value": {
-							"int": 9631
-						}
-					},
-					"PlayerName": {
-						"kind": "StrProperty",
-						"size": "17",
-						"value": {
-							"str": "gingerninja7"
+							"int": 13513
 						}
 					},
 					"PlayerStats": {
 						"kind": "ArrayProperty",
-						"size": "2699",
+						"size": "2698",
 						"value": {
 							"array": [
 								{
@@ -527,96 +549,6 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 2
-											}
-										},
-										"Goals": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Name": {
-											"kind": "StrProperty",
-											"size": "17",
-											"value": {
-												"str": "gingerninja7"
-											}
-										},
-										"OnlineID": {
-											"kind": "QWordProperty",
-											"size": "8",
-											"value": {
-												"q_word": "76561198013738317"
-											}
-										},
-										"Platform": {
-											"kind": "ByteProperty",
-											"size": "25",
-											"value": {
-												"byte": [
-													"OnlinePlatform",
-													"OnlinePlatform_Steam"
-												]
-											}
-										},
-										"Saves": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Score": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 372
-											}
-										},
-										"Shots": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Team": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"bBot": {
-											"kind": "BoolProperty",
-											"size": "0",
-											"value": {
-												"bool": 0
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"Name",
-										"Platform",
-										"OnlineID",
-										"Team",
-										"Score",
-										"Goals",
-										"Assists",
-										"Saves",
-										"Shots",
-										"bBot"
-									],
-									"last_key": "None",
-									"value": {
-										"Assists": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
 												"int": 0
 											}
 										},
@@ -624,21 +556,21 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 2
+												"int": 1
 											}
 										},
 										"Name": {
 											"kind": "StrProperty",
-											"size": "16",
+											"size": "18",
 											"value": {
-												"str": "King Baders"
+												"str": "OrbitalPeriod"
 											}
 										},
 										"OnlineID": {
 											"kind": "QWordProperty",
 											"size": "8",
 											"value": {
-												"q_word": "76561198409769166"
+												"q_word": "76561198181838275"
 											}
 										},
 										"Platform": {
@@ -655,104 +587,104 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1
+												"int": 2
 											}
 										},
 										"Score": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 463
+												"int": 443
 											}
 										},
 										"Shots": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 5
-											}
-										},
-										"Team": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"bBot": {
-											"kind": "BoolProperty",
-											"size": "0",
-											"value": {
-												"bool": 0
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"Name",
-										"Platform",
-										"OnlineID",
-										"Team",
-										"Score",
-										"Goals",
-										"Assists",
-										"Saves",
-										"Shots",
-										"bBot"
-									],
-									"last_key": "None",
-									"value": {
-										"Assists": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Goals": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Name": {
-											"kind": "StrProperty",
-											"size": "19",
-											"value": {
-												"str": "Clay Regazzoni"
-											}
-										},
-										"OnlineID": {
-											"kind": "QWordProperty",
-											"size": "8",
-											"value": {
-												"q_word": "76561198124848811"
-											}
-										},
-										"Platform": {
-											"kind": "ByteProperty",
-											"size": "25",
-											"value": {
-												"byte": [
-													"OnlinePlatform",
-													"OnlinePlatform_Steam"
-												]
-											}
-										},
-										"Saves": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
 												"int": 3
 											}
 										},
+										"Team": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"bBot": {
+											"kind": "BoolProperty",
+											"size": "0",
+											"value": {
+												"bool": 0
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"Name",
+										"Platform",
+										"OnlineID",
+										"Team",
+										"Score",
+										"Goals",
+										"Assists",
+										"Saves",
+										"Shots",
+										"bBot"
+									],
+									"last_key": "None",
+									"value": {
+										"Assists": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Goals": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Name": {
+											"kind": "StrProperty",
+											"size": "10",
+											"value": {
+												"str": "Yaiba"
+											}
+										},
+										"OnlineID": {
+											"kind": "QWordProperty",
+											"size": "8",
+											"value": {
+												"q_word": "76561198244999394"
+											}
+										},
+										"Platform": {
+											"kind": "ByteProperty",
+											"size": "25",
+											"value": {
+												"byte": [
+													"OnlinePlatform",
+													"OnlinePlatform_Steam"
+												]
+											}
+										},
+										"Saves": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
 										"Score": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 401
+												"int": 402
 											}
 										},
 										"Shots": {
@@ -804,7 +736,187 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
+												"int": 1
+											}
+										},
+										"Name": {
+											"kind": "StrProperty",
+											"size": "13",
+											"value": {
+												"str": "Matthias"
+											}
+										},
+										"OnlineID": {
+											"kind": "QWordProperty",
+											"size": "8",
+											"value": {
+												"q_word": "76561198045428395"
+											}
+										},
+										"Platform": {
+											"kind": "ByteProperty",
+											"size": "25",
+											"value": {
+												"byte": [
+													"OnlinePlatform",
+													"OnlinePlatform_Steam"
+												]
+											}
+										},
+										"Saves": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
 												"int": 0
+											}
+										},
+										"Score": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 385
+											}
+										},
+										"Shots": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 8
+											}
+										},
+										"Team": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"bBot": {
+											"kind": "BoolProperty",
+											"size": "0",
+											"value": {
+												"bool": 0
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"Name",
+										"Platform",
+										"OnlineID",
+										"Team",
+										"Score",
+										"Goals",
+										"Assists",
+										"Saves",
+										"Shots",
+										"bBot"
+									],
+									"last_key": "None",
+									"value": {
+										"Assists": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Goals": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Name": {
+											"kind": "StrProperty",
+											"size": "24",
+											"value": {
+												"str": "✪ Davey ✪"
+											}
+										},
+										"OnlineID": {
+											"kind": "QWordProperty",
+											"size": "8",
+											"value": {
+												"q_word": "76561198151942246"
+											}
+										},
+										"Platform": {
+											"kind": "ByteProperty",
+											"size": "25",
+											"value": {
+												"byte": [
+													"OnlinePlatform",
+													"OnlinePlatform_Steam"
+												]
+											}
+										},
+										"Saves": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Score": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 480
+											}
+										},
+										"Shots": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 5
+											}
+										},
+										"Team": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"bBot": {
+											"kind": "BoolProperty",
+											"size": "0",
+											"value": {
+												"bool": 0
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"Name",
+										"Platform",
+										"OnlineID",
+										"Team",
+										"Score",
+										"Goals",
+										"Assists",
+										"Saves",
+										"Shots",
+										"bBot"
+									],
+									"last_key": "None",
+									"value": {
+										"Assists": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
+											}
+										},
+										"Goals": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
 											}
 										},
 										"Name": {
@@ -835,186 +947,6 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 2
-											}
-										},
-										"Score": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 234
-											}
-										},
-										"Shots": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Team": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"bBot": {
-											"kind": "BoolProperty",
-											"size": "0",
-											"value": {
-												"bool": 0
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"Name",
-										"Platform",
-										"OnlineID",
-										"Team",
-										"Score",
-										"Goals",
-										"Assists",
-										"Saves",
-										"Shots",
-										"bBot"
-									],
-									"last_key": "None",
-									"value": {
-										"Assists": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Goals": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Name": {
-											"kind": "StrProperty",
-											"size": "13",
-											"value": {
-												"str": "Sid3line"
-											}
-										},
-										"OnlineID": {
-											"kind": "QWordProperty",
-											"size": "8",
-											"value": {
-												"q_word": "76561198382015863"
-											}
-										},
-										"Platform": {
-											"kind": "ByteProperty",
-											"size": "25",
-											"value": {
-												"byte": [
-													"OnlinePlatform",
-													"OnlinePlatform_Steam"
-												]
-											}
-										},
-										"Saves": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"Score": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 384
-											}
-										},
-										"Shots": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 6
-											}
-										},
-										"Team": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 0
-											}
-										},
-										"bBot": {
-											"kind": "BoolProperty",
-											"size": "0",
-											"value": {
-												"bool": 0
-											}
-										}
-									}
-								},
-								{
-									"keys": [
-										"Name",
-										"Platform",
-										"OnlineID",
-										"Team",
-										"Score",
-										"Goals",
-										"Assists",
-										"Saves",
-										"Shots",
-										"bBot"
-									],
-									"last_key": "None",
-									"value": {
-										"Assists": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Goals": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
-												"int": 1
-											}
-										},
-										"Name": {
-											"kind": "StrProperty",
-											"size": "10",
-											"value": {
-												"str": "Zi0n."
-											}
-										},
-										"OnlineID": {
-											"kind": "QWordProperty",
-											"size": "8",
-											"value": {
-												"q_word": "76561198964525440"
-											}
-										},
-										"Platform": {
-											"kind": "ByteProperty",
-											"size": "25",
-											"value": {
-												"byte": [
-													"OnlinePlatform",
-													"OnlinePlatform_Steam"
-												]
-											}
-										},
-										"Saves": {
-											"kind": "IntProperty",
-											"size": "4",
-											"value": {
 												"int": 3
 											}
 										},
@@ -1022,21 +954,111 @@
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 480
+												"int": 527
 											}
 										},
 										"Shots": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
-												"int": 1
+												"int": 2
 											}
 										},
 										"Team": {
 											"kind": "IntProperty",
 											"size": "4",
 											"value": {
+												"int": 1
+											}
+										},
+										"bBot": {
+											"kind": "BoolProperty",
+											"size": "0",
+											"value": {
+												"bool": 0
+											}
+										}
+									}
+								},
+								{
+									"keys": [
+										"Name",
+										"Platform",
+										"OnlineID",
+										"Team",
+										"Score",
+										"Goals",
+										"Assists",
+										"Saves",
+										"Shots",
+										"bBot"
+									],
+									"last_key": "None",
+									"value": {
+										"Assists": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
 												"int": 0
+											}
+										},
+										"Goals": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 0
+											}
+										},
+										"Name": {
+											"kind": "StrProperty",
+											"size": "9",
+											"value": {
+												"str": "Core"
+											}
+										},
+										"OnlineID": {
+											"kind": "QWordProperty",
+											"size": "8",
+											"value": {
+												"q_word": "76561198850065741"
+											}
+										},
+										"Platform": {
+											"kind": "ByteProperty",
+											"size": "25",
+											"value": {
+												"byte": [
+													"OnlinePlatform",
+													"OnlinePlatform_Steam"
+												]
+											}
+										},
+										"Saves": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 5
+											}
+										},
+										"Score": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 571
+											}
+										},
+										"Shots": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 2
+											}
+										},
+										"Team": {
+											"kind": "IntProperty",
+											"size": "4",
+											"value": {
+												"int": 1
 											}
 										},
 										"bBot": {
@@ -1049,13 +1071,6 @@
 									}
 								}
 							]
-						}
-					},
-					"PrimaryPlayerTeam": {
-						"kind": "IntProperty",
-						"size": "4",
-						"value": {
-							"int": 1
 						}
 					},
 					"RecordFPS": {
@@ -1074,9 +1089,9 @@
 					},
 					"ReplayName": {
 						"kind": "StrProperty",
-						"size": "23",
+						"size": "47",
 						"value": {
-							"str": "ruby stool semi g2"
+							"str": "2020-01-28.19.45 OrbitalPeriod Private Win"
 						}
 					},
 					"ReplayVersion": {
@@ -1097,14 +1112,14 @@
 						"kind": "IntProperty",
 						"size": "4",
 						"value": {
-							"int": 2
+							"int": 3
 						}
 					},
 					"Team1Score": {
 						"kind": "IntProperty",
 						"size": "4",
 						"value": {
-							"int": 3
+							"int": 2
 						}
 					},
 					"TeamSize": {
@@ -1124,7 +1139,7 @@
 				}
 			}
 		},
-		"crc": 2914135113,
-		"size": 5644
+		"crc": 3122210704,
+		"size": 5695
 	}
 }

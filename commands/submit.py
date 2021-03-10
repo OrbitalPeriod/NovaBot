@@ -6,8 +6,14 @@ import datetime
 from utils.logger import logAction
 from utils.logger import logError
 from utils.sqlManager import discordAndTeam
+from PIL import Image
+from PIL import ImageFont
+from PIL import ImageDraw 
+import io
 
 async def submit(message, client):
+
+    
 
     team = await getTeam(message, client)                       #get team variable
     match = await getMatchDetails(team, message, client)        #get details on match using week and team variable
@@ -35,17 +41,19 @@ async def submit(message, client):
     
     players, teams = replayHandler.processReplays(attachmentlist)
 
+    createImage(players)
+    channel = await client.fetch_channel(819239853102465114)
+    await channel.send(file=discord.File("resultImage.png"))
+    channel = await client.fetch_channel(819239853102465114)
+    imageurl = channel.last_message.attachments[0].url
+
     embed = discord.Embed(title="Game statistics: ")
     embed.set_author(name=client.user.name, icon_url=client.user.avatar_url)
     embed.description = "Please check these game statistics for any errors"
     embed.set_footer(text=message.author.name, icon_url=client.user.avatar_url)
+    embed.set_image(url=imageurl)
     embed.timestamp = datetime.datetime.now()
 
-    fieldString = ""
-    for player in players.values():
-        fieldString = fieldString + "**{0}**: Goals: {1}, Platform: {2}, Team: {3}, Score: {4}, Assists: {5}, Saves: {6}, Shots: {7}, Games: {8}\n".format(player.Name, player.Goals, player.Platform, player.Team, player.Score, player.Assists, player.Saves, player.Shots, player.Games)
-    
-    embed.add_field(name="Player statistics: ", value=fieldString)
     await message.channel.send(embed=embed)
 
     pass
@@ -109,3 +117,28 @@ async def getTeam(message, client):
             team = msg.content
             break
     return team
+
+def createImage(playerList):
+
+
+    img = Image.open("Template.png")
+    draw = ImageDraw.Draw(img)
+    
+    players = list(playerList.values())
+
+    for i in range(0, 6):
+        _addtoImage(i, 0, players[i].Name, draw)
+        _addtoImage(i, 1, players[i].Score, draw)
+        _addtoImage(i, 2, players[i].Goals, draw)
+        _addtoImage(i, 3, players[i].Assists, draw)
+        _addtoImage(i, 4, players[i].Saves, draw)
+        _addtoImage(i, 5, players[i].Shots, draw)
+
+    img.save("resultImage.png", "PNG")
+
+def _addtoImage(player, statisticsN, value, draw):
+    playery = [120, 190, 270, 455, 530 ,605]
+    statisticsx = [300, 750, 870, 1010, 1150, 1280]
+    font = ImageFont.truetype("arial.ttf", 40)
+
+    draw.text((statisticsx[statisticsN], playery[player]), str(value), (255,255,255), font=font)
